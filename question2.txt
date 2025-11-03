@@ -1,0 +1,5 @@
+Preprocessing: First stage a source code does through. Handles directives (#include). An error could be missing the header file will result in no such file or directory exists error message.
+Compilation: Checks syntax. An error message like expected ';' before 'return'.
+Assembly: Converts assembly to object code (.o). Error example would be an assembler syntax error.
+Linking: Resolves external refrences into an executable. Error example, undefined reference to 'printf' if not linked with the correct library.
+Loading: OS loader maps the executable into memory at run time. Error example, missing shared library at run time, error while loading shared libraries.
