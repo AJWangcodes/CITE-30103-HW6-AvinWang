@@ -1,0 +1,1 @@
+If you remove #include <stdio.h> but all printf, the compiler will show an error message about the implicit declaration of printf. Even if it links, the call has undefined behavior due to the mismatched implicit signature. To fix this you would need to restore #include <stdio.h> so the declaration is visible at compilation.
