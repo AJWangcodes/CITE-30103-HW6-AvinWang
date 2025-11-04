@@ -1,0 +1,3 @@
+int 1value = 10; needs to be changed to value1, because identifiers cannot start with a digit.
+float avg-rate = 12.5; need to be float avg_rate, a hyphen is not allowed in identifiers since it is the subtraction operation.
+char Class = 'A'; needs to be changed to class because identifiers need to start lowercase.
