@@ -1,0 +1,3 @@
+global_value is declared outside any function, so it has file scope (global) and exists for the entire program run; any function in this file can access it.
+local_value is declared inside main(), so it has block (local) scope and exists only while main() is executing; other functions can’t see it unless passed as an argument.
+The output prints both to show that a global and a local can coexist but have differen visibility and lifetimes.
